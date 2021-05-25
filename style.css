@@ -147,7 +147,7 @@ body{
     
 }
 .result{
-    width:960px;
+    width:1100px;
     margin: 0 auto;
     height: 500px;
 }
@@ -164,11 +164,11 @@ body{
     font-size: 20px;
 }
 .price {
-    font-size: 25px;
+    font-size: 35px;
 }
 .image{
     text-align: left;
-    /* width:50%; */
+    width:30%; 
 }
 .image img {
      width: 250px; 
@@ -178,9 +178,25 @@ body{
     text-align: center;
 }
 .gotoshop {
-    text-align: center;
-    align-items: center;
+    text-align: right;
+    align-items: right;
     display: flex;
+    width: 30%;
+}
+.btn-gotoshop {
+    width: 150px;
+    height: 65px;
+    padding: 0px 6px;
+    margin: auto;
+    display: block;
+}
+.btn-showmore{
+    width: 150px;
+    height: 65px;
+    margin: 0;
+    display: block;
+    padding: 0px 10px;
+    font-size: 19px;
 }
 .column {
     width: 50%;
