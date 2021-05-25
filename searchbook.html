@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+
+  <title>Look for Book</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Look for book</h1>
+    </div>
+    <div class = "logo_image">
+        <img class="logo" src = "img/read-book.svg"/>
+    </div>
+    <div class = "container">
+    <div class="search_wrap search_wrap_5">
+        <div class="search_box">
+            <input type="text" class="input" placeholder="Wpisz nazwę szukanej książki">
+           
+        </div> 
+        <div>
+            <button class="option-button btn-search" onClick = ''>Szukaj</button>
+        </div>
+    </div>
+    <div class="info">
+        <h2>Nie znasz tytułu książki?</h2>
+        <h3>Chcesz podać tylko wydawnictwo, autora lub numer ISBN?</h3>
+        <h2>Wyszukiwanie zaawansowane jest dla Ciebie!</h2>
+    </div>
+    <div class = "options">
+        <button id="searchbook" class="option-button btn-advancedSearch" onClick = "location.href='searchResult'">Wyszukiwanie zaawansowane</button> 
+        
+        <h2 class="infoaboutfill">Wypełnij poniższe pola: </h2>
+    </div>
+    <div class="advancedSearchForm">
+        
+        <div class="column">
+        <input type="text" class="inputAdvanced" id="inputAuthor"placeholder="Autor"><br>
+        <input type="text" class="inputAdvanced" id="inputTitle" placeholder="Tytuł">
+    </div>
+    <div class="column">
+        <input type="text" class="inputAdvanced" id="inputEsta" placeholder="Wydawnictwo"><br>
+        <input type="text" class="inputAdvanced" id="inputIsbn" placeholder="Numer ISBN">
+        <h2 class="infoaboutfill">Wybierz sposób sortowania wyników: </h2>
+    </div>
+    </div>
+</div>
+    <footer>
+    <h3>Copyright - Daniel Kulaga - All rights reserved</h3>
+    </footer>
+  <script type = "text/javascript" src="main.js">
+ </script>
+</body>
+</html>

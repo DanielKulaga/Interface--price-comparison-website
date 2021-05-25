@@ -1,0 +1,79 @@
+ <!doctype html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+
+  <title>Look for Book</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Look for <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "book", "pen", "pencil", "notebook", "staluga","canvas" ]'></span>
+       </h1>
+    </div>
+    <div class = "logo_image">
+        <img class="logo" src = "img/read-book.svg"/>
+    </div>
+    <div class = "container">
+    <div class="search_wrap search_wrap_5">
+        <div class="search_box">
+            <input type="text" class="input" placeholder="Wyszukaj inny produkt">
+           
+        </div> 
+        <div>
+            <button class = "option-button btn-search" onClick = ''>Szukaj</button>
+        </div>
+    </div>
+    <div class="info">
+        <h1>Wyniki wyszukiwania:</h1>
+    </div>
+    <div class = "results">
+        <div class = "result">
+            <h1>Sklep nr1</h1>
+            <div class = "response">
+                <div class = "image"> 
+                    <img class="coverImage" src="img/zimowy-ogrod-hannah-kristin.jpg"/>
+                </div>
+                <div class = "details">
+                    <div class="info-details">
+                    <p class="author">Autor: Adam Mickiewicz</p>
+                    <p class="title">Tytuł: Pan Tadeusz</p>
+                    <p class="price">Cena: 19.00 zł</p>
+                    </div>
+                    <div class = "info-details">
+                        <p class="rate">Ocena: 4.6 <span><img class="star" src = "img/favourites.svg"/></span></p>
+                        <p class="cover-info">Rodzaj: Okładka miękka</p>
+                        <button class="gotoshop-btn">Pokaż więcej</button>
+                    </div>
+                </div>
+                <div class = "gotoshop">
+                    <button class="gotoshop-btn">Idź do sklepu</button>
+                </div>
+            </div>
+        </div>
+
+        
+        
+ 
+    </div>
+    <div class="advancedSearchForm">
+    </div>
+</div>
+    <footer>
+    <h3>Copyright - Daniel Kulaga - All rights reserved</h3>
+    </footer>
+  <script type = "text/javascript" src="main.js">
+ </script>
+</body>
+</html>
